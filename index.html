@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DP Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <div class="profile-photo">
+                    <img src="images/profile.jpg" alt="Diogo Paulo">
+                </div>
+                <h1>Diogo Paulo</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Hello, I'm Diogo Paulo</h2>
+                <p>Computer Engineer | Researcher | Developer</p>
+                <div class="hero-buttons">
+                    <a href="mailto:diogo.paulo@ubi.pt" class="btn"><i class="fas fa-envelope"></i> Contact Me</a>
+                    <a href="#about" class="btn btn-outline">View My Work</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/yourusername" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/diogo-paulo-7261a71b8/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://orcid.org/0009-0000-5873-9578" target="_blank" title="ORCID"><i class="fab fa-orcid"></i></a>
+                    <a href="https://scholar.google.com/citations?user=_56fSgsAAAAJ&hl=pt-PT" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Diogo Paulo">
+                </div>
+                <div class="about-text">
+                    <p>Diogo Paulo is an extremely diligent and motivated student. In 2023, he graduated from the University of Beira Interior (UBI) with a Bachelor's degree in Computer Science, having achieved an average final grade of 17/20. His undergraduate project resulted in a published conference paper on CIARP, reflecting his research skills from an early stage.</p>
+                    <p>Diogo is in the final year of his master's degree in computer science at UBI, having an average grade of 18/20. His Master's thesis, "Detection of Bin Overflow or Parasitic Waste on Streets," is supervised by Professor João Neves and focuses on themes of Artificial Intelligence (AI) and Computer Vision, i.e., pattern recognition, object segmentation, and detection. Diogo actively participates in research as a research fellow, reflecting a high commitment to the field. He is currently working on a research project, an agreement between Evox Technologies and his institution, where his activity contributes directly to his thesis research. This is his second research fellowship position, demonstrating a strong commitment to the field.</p>
+                    <p>Diogo also has experience presenting his work orally and has participated in programming contests like MIUP. In order to support his technical skills, Diogo has completed Andrew Ng's extensive Deep Learning Specialization on Coursera. His interests within Computer Science are artificial intelligence and computer vision.</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <ul class="skill-list">
+                            <li>Programming (Python, Java, C, etc.)</li>
+                            <li>Machine Learning</li>
+                            <li>Computer Vision</li>
+                            <li>Data Analysis</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Master's in Computer Science</h3>
+                        <h4>University of Beira Interior</h4>
+                        <p class="timeline-date">2023 - Present</p>
+                        <p>Focusing on [Artificial Intelligence]. Research areas include [computer vision, pattern recognition, object detection & segmentation].</p>
+                        <p><strong>Current Grade:</strong> 18/20</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor's in Computer Science</h3>
+                        <h4>University of Beira Interior</h4>
+                        <p class="timeline-date">2020 - 2023</p>
+                        <p>Studied fundamental concepts in computer science, algorithms, data structures, and software engineering.</p>
+                        <p><strong>Final Grade:</strong> 17/20</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Research</h2>
+            <!-- Journal Publications -->
+            <!-- <div class="research-category">
+                <h3 class="research-category-title"><i class="fas fa-scroll"></i> Journal Publications</h3>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <h3>Journal Publication Title 1</h3>
+                        <p class="publication-authors">Authors: <strong>Paulo, D.</strong>, Collaborator, A., Collaborator, B.</p>
+                        <p class="publication-journal">Journal of Computer Science, 2023</p>
+                        <p class="publication-abstract">Abstract: Brief summary of the publication and its contributions to the field.</p>
+                        <div class="publication-links">
+                            <a href="#" class="publication-link" title="Read Paper"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="publication-link" title="DOI Reference"><i class="fas fa-external-link-alt"></i> DOI</a>
+                            <a href="#" class="publication-link" title="GitHub Repository"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            
+            <!-- Conference Publications -->
+            <div class="research-category">
+                <h3 class="research-category-title"><i class="fas fa-users"></i> Conference Publications</h3>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <h3>WildFruiP: Estimating Fruit Physicochemical Parameters from Images Captured in the Wild</h3>
+                        <p class="publication-authors">Authors: <strong>Paulo, D.J.</strong>, Neves, C.M.B., Wessel, D.F., Neves, J.C.</p>
+                        <p class="publication-journal">Iberoamerican Congress on Pattern Recognition (CIARP), 2023</p>
+                        <div class="publication-links">
+                            <a href="https://doi.org/10.1007/978-3-031-49018-7_23" class="publication-link" title="DOI Reference"><i class="fas fa-external-link-alt"></i>DOI</a>
+                            <a href="https://github.com/Diogo365/WildFruiP" class="publication-link" title="GitHub Repository"><i class="fab fa-github"></i>Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Book Chapters -->
+            <!-- <div class="research-category">
+                <h3 class="research-category-title"><i class="fas fa-book-open"></i> Book Chapters</h3>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <h3>Book Chapter Title 1</h3>
+                        <p class="publication-authors">Authors: <strong>Paulo, D.J.</strong>, Co-author, E.</p>
+                        <p class="publication-journal">Advances in Computer Science. Publisher, 2023</p>
+                        <p class="publication-abstract">Abstract: Brief summary of the book chapter and its contributions to the field.</p>
+                        <div class="publication-links">
+                            <a href="#" class="publication-link" title="Publisher Link"><i class="fas fa-external-link-alt"></i> Publisher</a>
+                            <a href="#" class="publication-link" title="DOI Reference"><i class="fas fa-external-link-alt"></i> DOI</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            
+            <!-- Oral Communications -->
+            <div class="research-category">
+                <h3 class="research-category-title"><i class="fas fa-microphone-alt"></i> Oral Communications</h3>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <h3>WildFruiP: Estimating Fruit Physicochemical Parameters from Images Captured in the Wild</h3>
+                        <p class="publication-authors">Presenters: <strong>Paulo, D.J.</strong></p>
+                        <p class="publication-journal">1st Symposium Mediterranean Fruit: Hub for Innovation, Avignon, France, May 2024</p>
+                        <p class="publication-abstract">Brief description of the presentation topic and its significance.</p>
+                        <div class="publication-links">
+                            <a href="https://inovfarmer-med.org/wp-content/uploads/2024/06/E-BOOK-ABSTRACTS-1SymposiumMFHI-2024_vf.pdf" class="publication-link" title="View Abstract (E-Book)"><i class="fas fa-file-alt"></i> Abstract (E-Book)</a>
+                            <a href="documents/InovFarmer_Symposium_Participation.pdf" class="publication-link" title="Certificate of Attendance"><i class="fas fa-file-powerpoint"></i>Certificate of Attendance</a>
+                        </div>
+                    </div>
+                    
+                    <div class="publication-item">
+                        <h3>A continuous ripeness scale for figs and prickly pears using multimodal data integration</h3>
+                        <p class="publication-authors">Presenters: <strong>Paulo, D.J.</strong></p>
+                        <p class="publication-journal">Conference on Transforming Agri-Food Supply Chain for a Sustainable Future, Alexandria, Egypt, April 2025</p>
+                        <p class="publication-abstract">Brief description of the presentation topic and its significance.</p>
+                        <div class="publication-links">
+                            <a href="https://inovfarmer-med.org/wp-content/uploads/2025/04/E-BOOK-ABSTRACTS-Conference-Egypt-v1.pdf" class="publication-link" title="View Abstract (E-Book)"><i class="fas fa-file-alt"></i>Abstract (E-Book)</a>
+                            <a href="documents/InovFarmer_Oral_Communication_Participation.pdf" class="publication-link" title="Certificate of Attendance"><i class="fas fa-file-powerpoint"></i>Certificate of Attendance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Thesis/Dissertations -->
+            <div class="research-category">
+                <h3 class="research-category-title"><i class="fas fa-book"></i> Thesis/Dissertations</h3>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <h3>Master's Thesis: [Detection of Bin Overflow or Parasitic Waste on Streets]</h3>
+                        <p class="publication-authors">Author: <strong>Paulo, D.J.</strong></p>
+                        <p class="publication-journal">University of Beira Interior, 2025</p>
+                        <div class="publication-links">
+                            <a href="#" class="publication-link" title="Read Thesis"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="publication-link" title="Repository"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <h3>Bachelor's Final Project Report: [Estimativa de Maturação de Frutos a partir de Imagens capturadas por Dispositivos Móveis]</h3>
+                        <p class="publication-authors">Author: <strong>Paulo, D.J.</strong></p>
+                        <p class="publication-journal">University of Beira Interior, 2023</p>
+                        <div class="publication-links">
+                            <a href="#" class="publication-link" title="Read Thesis"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="publication-link" title="Repository"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="InovFarmer.MED Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>InovFarmer.MED</h3>
+                        <p class="project-summary">A PRIMA initiative focused on increasing the resilience of small-scale farms in the Mediterranean region through adapted technologies and smart agri-food supply chains.</p>
+                        <p class="project-role">Role: First Stage Researcher (Fellowship) focused on the development of a fruit ripeness detection system (using AI) that could be used in the field using a mobile application.</p>
+                        <div class="project-links">
+                            <a href="https://inovfarmer-med.org/" target="_blank" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Project Website</a>
+                            <a href="#project-modal-1" class="btn btn-small btn-details js-open-modal"><i class="fas fa-info-circle"></i> Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Evox Technologies Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Evox Technologies</h3>
+                        <p class="project-summary">Research project in collaboration with Evox Technologies to develop an AI-based system for detecting and segmenting overflowing waste from containers in urban environments.</p>
+                        <p class="project-role">Role: Research Fellow working on the development of deep learning models for waste detection and segmentation using computer vision techniques. This project directly contributes to my Master's thesis research on "Detection of Bin Overflow or Parasitic Waste on Streets."</p>
+                        <div class="project-links">
+                            <a href="https://evox.pt/" target="_blank" class="btn btn-small"><i class="fas fa-external-link-alt"></i> Company Website</a>
+                            <a href="#project-modal-2" class="btn btn-small btn-details js-open-modal"><i class="fas fa-info-circle"></i> Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Project Details Modals (Hidden by default) -->
+        <div id="project-modal-1" class="project-modal">
+            <div class="project-modal-content">
+                <span class="project-modal-close">&times;</span>
+                <h2>InovFarmer.MED</h2>
+                <div class="project-modal-body">
+                    <p>The InovFarmer.MED proposal focus on PRIMA's Thematic Area 3 – Sustainable Mediterranean agro-food value chain for regional and local development, addressing specifically the topic 2.3.1 "Increasing the resilience of smallscale farms to global challenges and COVID-like crisis by using adapted technologies, smart agri-food supply chain and crisis management tools".</p>
+                    <p>Knowing that environmental and social changes are deeply affecting Euro Mediterranean agro-food systems, and that COVID-19 outbreak imposing restrictions on movement, has demonstrated the fragility of the Mediterranean food systems, already distressed by climate change, population growth and scarcity of resources, the InovFarmer.MED consortium has developed a empowerment strategy addressing vulnerabilities of the producers in particular, smallholder farmers, to establish lines of resilience to face these challenges.</p>
+                    <p>InovFarmer.MED will address, as case-study, the value-chains of two traditional agrifood products with high potential economic relevance and social significance for small-scale farmers of Mediterranean basin: fig (Ficus carica) and prickly pear (Opuntia ficus indica).</p>
+                    <div class="project-modal-links">
+                        <a href="https://project-website-url.com" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Visit Project Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Additional project modals can be added here following the same pattern -->
+        <div id="project-modal-2" class="project-modal">
+            <div class="project-modal-content">
+                <span class="project-modal-close">&times;</span>
+                <h2>Evox Technologies - AI for Waste Detection</h2>
+                <div class="project-modal-body">
+                    <p>This research project is a collaboration between University of Beira Interior and Evox Technologies, where I'm working as a research fellow under a scholarship program. The main goal is to develop an advanced AI system capable of detecting and segmenting overflowing waste from containers in urban environments.</p>
+                    <p>The project involves:</p>
+                    <ul>
+                        <li>Development of deep learning models for waste object detection and segmentation</li>
+                        <li>Creation of custom datasets for training and validation</li>
+                        <li>Implementation of computer vision algorithms for real-time analysis</li>
+                        <li>Integration with existing waste management systems</li>
+                    </ul>
+                    <p>This work directly contributes to my Master's thesis research on "Detection of Bin Overflow or Parasitic Waste on Streets," supervised by Professor João Neves, combining academic research with practical industry applications in smart city development.</p>
+                    <div class="project-modal-links">
+                        <a href="https://evox.pt/en/" target="_blank" class="btn"><i class="fas fa-external-link-alt"></i> Visit Company Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-container">
+                <div class="certification-item">
+                    <div class="certification-logo">
+                        <img src="images/cert-logo1.jpg" alt="Certification Provider">
+                    </div>
+                    <div class="certification-content">
+                        <h3>Deep Learning Specialization</h3>
+                        <p class="certification-issuer">DeepLearning.AI</p>
+                        <p class="certification-date">Issued: April 2024 • No Expiration</p>
+                        <p class="certification-description">This specialization covers the following courses:</p>
+                        <ul class="certification-list">
+                            <li><i class="fas fa-check-circle"></i> Neural Networks and Deep Learning</li>
+                            <li><i class="fas fa-check-circle"></i> Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization</li>
+                            <li><i class="fas fa-check-circle"></i> Structuring Machine Learning Projects</li>
+                            <li><i class="fas fa-check-circle"></i> Convolutional Neural Networks</li>
+                            <li><i class="fas fa-check-circle"></i> Sequence Models</li>
+                        </ul>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/SG6PKYMAF3WU" class="certification-link" title="View Credential"><i class="fas fa-external-link-alt"></i> Verify</a>
+                    </div>
+                </div>
+
+                <div class="certification-item">
+                    <div class="certification-logo">
+                        <img src="images/cert-logo2.jpg" alt="Certification Provider">
+                    </div>
+                    <div class="certification-content">
+                        <h3>CCNA: Introduction to Networks</h3>
+                        <p class="certification-issuer">Cisco</p>
+                        <p class="certification-date">Issued: March 2025 • No Expiration</p>
+                        <p class="certification-description">This certification covers the following topics:</p>
+                        <ul class="certification-list">
+                            <li><i class="fas fa-check-circle"></i>Ethernet</li>
+                            <li><i class="fas fa-check-circle"></i>IP Connectivity</li>
+                            <li><i class="fas fa-check-circle"></i>IP Services</li>
+                            <li><i class="fas fa-check-circle"></i>IP Subnetting</li>
+                            <li><i class="fas fa-check-circle"></i>IPv4 and IPv6 Addressing</li>
+                            <li><i class="fas fa-check-circle"></i>Security Fundamentals</li>
+                            <li><i class="fas fa-check-circle"></i>Network Fundamentals</li>
+                            <li><i class="fas fa-check-circle"></i>Switching</li>
+                        </ul>
+                        <a href="https://www.credly.com/badges/f956cf1e-4c17-4a6a-bcfd-f488691caa46" class="certification-link" title="View Credential"><i class="fas fa-external-link-alt"></i> Verify</a>
+                    </div>
+                </div>
+
+                <div class="certification-item">
+                    <div class="certification-logo">
+                        <img src="images/cert-logo3.jpg" alt="Certification Provider">
+                    </div>
+                    <div class="certification-content">
+                        <h3>Scrum Foundation Professional Certificate</h3>
+                        <p class="certification-issuer">Certiprof</p>
+                        <p class="certification-date">Issued: October 2022 • No Expiration</p>
+                        <p class="certification-description">This certification validates knowledge of Scrum fundamentals including:</p>
+                        <ul class="certification-list">
+                            <li><i class="fas fa-check-circle"></i> Agile and Scrum principles and values</li>
+                            <li><i class="fas fa-check-circle"></i> Scrum roles, events, and artifacts</li>
+                            <li><i class="fas fa-check-circle"></i> Sprint planning and execution</li>
+                            <li><i class="fas fa-check-circle"></i> Product Backlog management</li>
+                            <li><i class="fas fa-check-circle"></i> Team collaboration techniques</li>
+                        </ul>
+                        <a href="documents/scrum-foundation-certificate.pdf" class="certification-link" title="View Certificate"><i class="fas fa-file-pdf"></i> View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="interests">
+        <div class="container">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests-content">
+                <div class="interest-category">
+                    <h3><i class="fas fa-laptop-code"></i> Technical Interests</h3>
+                    <ul>
+                        <li>Artificial Intelligence</li>
+                        <li>Computer Vision</li>
+                        <li>Cybersecurity</li>
+                    </ul>
+                </div>
+                <div class="interest-category">
+                    <h3><i class="fas fa-book"></i> Academic Interests</h3>
+                    <ul>
+                        <li>Artificial Intelligence</li>
+                        <li>Machine Learning</li>
+                        <li>Computer Vision and Pattern Recognition</li>
+                        <li>Biometrics</li>
+                    </ul>
+                </div>
+                <div class="interest-category">
+                    <h3><i class="fas fa-hiking"></i> Personal Interests</h3>
+                    <ul>
+                        <li>Gaming</li>
+                        <li>Strength training and fitness (Gym)</li>
+                        <li>Reading</li>
+                        <li>Travel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Diogo Paulo. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/diogo-paulo-7261a71b8/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Diogo365" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://orcid.org/0009-0000-5873-9578" target="_blank"><i class="fab fa-orcid"></i></a>
+                    <a href="https://scholar.google.com/citations?user=_56fSgsAAAAJ&hl=pt-PT" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
